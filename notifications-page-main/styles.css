@@ -59,6 +59,7 @@ body{
     display: flex;
     gap: 13px;
     padding: 16px;
+    min-width: 343px;
     font-size: 0.875em; /*14px*/
     cursor: pointer;
     margin: 0 auto 10px;
@@ -125,4 +126,14 @@ body{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px){
+    .main{
+        width: 730px;
+        margin: 0 auto;
+    }
+    .post{
+        font-size: 1em;
+    }
 }
